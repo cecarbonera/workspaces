@@ -1,0 +1,63 @@
+#
+# 1) Criar um usuário e senha no site da NVIDIA
+#
+# 2) Criar o token para acesso ao LLM (que pode ser acessado diretamente do site da NVIDIA) - https://build.nvidia.com/settings/api-keys
+#
+# Navegar até a pasta dos arquivos fontes e no arquivo "promerge_env_var.py" colocar o token na variável "nvidia_key"
+#
+# Abrir o Anaconda Prompt de comando como administrador e ir até o diretório aonde está os fontes
+#
+#  Nunca executar os comandos conda create....pois referência os arquivos da pasta de instalação do Anaconda (e não funciona corretamente)
+#
+#  - O wifi 5G está funcionando melhor para debuggar
+#  - Parar o antivirus
+#  - Abrir a PASTA de onde estão os fontes de dados
+#  - Selecionar o compilador/debugger "FastApi"
+
+# 
+# Crie um ambiente virtual (prompt do anaconda como administrador)
+python -m venv promergeenv
+
+# Ativar o ambiente - Windows
+promergeenv\scripts\activate
+
+# IMPORANTE: 
+# 
+# Abrir o arquivo "requirements.txt" E EXECUTAR SEPARADAMENTE CADA UM DOS COMANDOS CONTIDOS
+#
+# Após instalação dos pacotes -> abrir o visual studio code e no ambiente de execução deverá ser localizado 
+# o interpretador do python do ambiente que está em "...env\scripts\python.exe"
+#
+#
+# Crier a imagem do Qdrant e do neo4j (Abrir o docker desktop antes)
+docker run --name vectordb -dit -p 6333:6333 qdrant/qdrant
+docker run -d --name promerge-neo4j -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=neo4j/promerge neo4j:latest
+
+# Crie o banco de dados vetorial
+python promerge_rag.py Documentos
+
+# Acesse o Dashboard
+http://localhost:6333/dashboard
+
+# Inicialize a API OU RODAR no modo debugger
+python promerge_start_api.py 
+
+# Desative o ambiente virtual quando concluir o trabalho
+deactivate
+
+#
+#  Utilizar o postman para teste e validação
+#   1o) Criar uma chamada POST -> http://127.0.0.1:8000/promerge_api
+#   2o) Headers -> Content-Type -> application/json
+#   3o) Body -> { "query": "Aqui fazer a pergunta......" }
+#
+#
+# O que é NASDAQ-100?
+# Quem foi Pedro Alvares Cabral?
+# Apresente o código-fonte em python para calcular o fatorial de um número inteiro utilizando a linguagem python.
+
+# Quem é o atual presidente da república do Brasil?
+# Qual a melhor estratégia de investimento pensando em aposentadoria?
+# Como funciona a compra direta de ações na Nasdaq?
+
+

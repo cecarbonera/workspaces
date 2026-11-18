@@ -1,0 +1,43 @@
+#
+# Executar os comandos abaixo - INDIVIDUALMENTE E AGUARDAR FINALIZAR - 
+#  dentro do ambiente de desenvolvimento (teste)
+#
+# IMPORTANTE: Parar de rodar o ANTI VIRUS da máquina 
+#
+# IMPORTANTE: De preferência ABRA o docker desktop APÓS a instalação de todos os pacotes
+# 
+# 
+python.exe -m pip install --upgrade pip
+
+pip install uvicorn
+pip install uvicorn
+pip install fastapi
+pip install openai-whisper
+pip install easyocr opencv-python
+pip install torch
+pip install transformers 
+pip install langchain
+pip install pydantic
+pip install openai
+pip install langgraph
+pip install qdrant-client
+pip install PyPDF2
+pip install tiktoken
+pip install langchain-text-splitters
+pip install langchain_community
+pip install langchain-huggingface
+pip install sentence_transformers
+pip install langchain-qdrant
+pip install gradio_client
+pip install accelerate
+pip install python-docx
+pip install python-pptx
+pip install easyocr
+pip install neo4j
+pip install docker
+
+#
+# IMPORTANTE: Limpar o cache de memória
+# 
+# 
+pip cache purge

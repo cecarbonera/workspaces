@@ -1,0 +1,227 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5F3D5152-79E4-2D13-CC93-F413B7657639" name="receptionist">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>1B0F320F-B98A-565A-4121-39E428ED0B59</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E8147C30-8ED0-7ABA-9E3C-3878DAC55702">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>53F66F7D-C3EC-BE9A-F9DD-73901F28EA58</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="1AB0C12A-063D-B565-1F38-63BD062DD08D">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>A01B1591-778D-91F1-E16C-98269AA6448B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="73DE86E0-CCD2-7949-975E-62033DBF484A">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>6986A433-5861-3037-EA5D-826DCA596FA5</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="FFB011B4-FD79-3679-8C3E-9B442326AB23">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>C51F6FC0-1FAA-61AB-AEC6-1423EC1E4EC7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E325850-1D95-561E-A1FE-94C3C4CDFD95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role_id" id="1A4F9FB7-0FAC-B6FA-65C1-8E9096582B72">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>DE5D55BD-A871-75DB-7E32-BFB0906A473C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA8068C9-55CB-0ACA-037B-5E70D190623E" referredColumn="85E1915E-6A09-8919-C229-0E6B442F4CAA"/>
+</associations>
+</Column>
+<Column name="shop_id" id="33D1042B-50B4-5169-DB9B-8C7E1831C7F5">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>C2B8C444-B962-2338-FC5C-2A82A5BC0C05</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2EBBA418-B4AF-F0AD-F69C-40EEAC11250E" referredColumn="11EFBC10-AD7B-E19E-CEF8-16E035D59446"/>
+</associations>
+</Column>
+<Column name="address" id="6B9B1CE4-25AB-6350-11A6-C45B4AD3674B">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>55B5C36E-319D-4BE8-5A9B-3939FB6F4955</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B338C243-F1F1-8415-6EAD-2ED3697F2EFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="98955530-2E5E-05A5-F29C-AB283B29C0E6">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>6F687A95-FC6F-7659-F4C4-930DFFD2A29F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="2D38D453-A8F1-8ADB-9AFE-5F9FA6266DE9">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>157E69A6-F872-8E3B-D1D9-C23F86A8BC66</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="425F54B5-5050-3192-58B5-216F1DCA825E">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>B50E70E3-4D28-29AB-E434-57EA288FC55B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D9C8E7F8-1EB4-FD7B-E02F-2E8AB6E9E648</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="about" id="23761530-5E03-80C1-F580-853554C83318">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>B7788EA0-9D27-B9D8-BDB0-87B85C92D676</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4C2C9E1A-6CA8-191A-371F-C77307297A8C" name="receptionist_PK">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>1F1E687E-712C-6884-E2E5-21C0FD158DC6</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E8147C30-8ED0-7ABA-9E3C-3878DAC55702"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AC7F37AA-081F-B4EC-324E-459CBB89BA6E" name="INDEX_1v3">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>E22A3E2D-81D4-16FA-CE6A-1DE408BA7B14</importedID>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFB011B4-FD79-3679-8C3E-9B442326AB23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="257DC9D3-F083-BE3E-2111-FFA3F82F8C2D" name="idx_receptionist_shop">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>1F9A6885-DDA5-5781-F2AC-DE0E2304B1A8</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33D1042B-50B4-5169-DB9B-8C7E1831C7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E94CED16-0BE1-64A3-7D4F-89CDFA8579F9" name="idx_receptionist_role">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>776C04C7-E8F5-0C3E-3990-AA5C6964AF84</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A4F9FB7-0FAC-B6FA-65C1-8E9096582B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="32D49E6A-FC2A-4539-9850-C41E3673AF96" name="fk_receptionist_role">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A4F9FB7-0FAC-B6FA-65C1-8E9096582B72"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA63CE25-44AF-7657-C38C-BA781C0F995D" name="fk_receptionist_shop">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33D1042B-50B4-5169-DB9B-8C7E1831C7F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

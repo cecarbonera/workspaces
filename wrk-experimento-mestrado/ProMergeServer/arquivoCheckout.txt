@@ -1,0 +1,115 @@
+package FirstExperiment;
+
+import java.util.ArrayList;
+
+public class Employees extends Person {
+	// V - Vendedor, G - Gerente, R - Repositor, F - Conferencista
+	private String tipoCargo;
+	private int anoContratacao;
+	private double salario;
+	private double percBonificacao;
+	private double percComissao;
+	private double totalSalario;
+
+	public Employees() {
+
+	}
+
+	public Employees(int codigo, String nome, String cpf, int idade, String email, 
+			String tipoCargo, int anoContratacao, double salario, double percBonificacao,
+			double percComissao) 
+	{	// Super Classe
+		super(codigo, nome, cpf, idade, email);
+
+		// Demais propriedades
+		this.setTipoCargo(tipoCargo);
+		this.setAnoContratacao(anoContratacao);
+		this.setSalario(salario);
+		this.setPercBonif(percBonificacao);
+		this.setTotalSalario(salario);
+		this.setPercComissao(percComissao);
+
+	}
+
+	public String getTipoCargo() {
+		return tipoCargo;
+	}
+
+	public void setTipoCargo(String tipoCargo) {
+		this.tipoCargo = tipoCargo;
+	}
+
+	public int getAnoContratacao() {
+		return anoContratacao;
+	}
+
+	public void setAnoContratacao(int anoContratacao) {
+		this.anoContratacao = anoContratacao;
+	}
+
+	public double getSalario() {
+		return salario;
+	}
+
+	public void setSalario(double salario) {
+		this.salario = salario;
+	}
+
+	public double getPercBonif() {
+		return percBonificacao;
+	}
+
+	public void setPercBonif(double percBonif) {
+		this.percBonificacao = percBonif;
+	}
+
+	public double getTotalSalario() {
+		return totalSalario;
+	}
+
+	public void setTotalSalario(double totalSalario) {
+		this.totalSalario = totalSalario;
+	}
+
+	public double getPercComissao() {
+		return percComissao;
+	}
+
+	public void setPercComissao(double percComissao) {
+		this.percComissao = percComissao;
+	}
+
+	public ArrayList<Employees> listarFuncionarios() {
+		ArrayList<Employees> funcionarios = new ArrayList<Employees>();
+
+		// V - Vendedor
+		funcionarios.add(new Employees(1, "Marcio da Silva",
+				"538.417.150-28", 22, "marciosilva@gmail.com", "V", 2020,
+				1800.85401212155, 1.55, 4));
+		funcionarios
+				.add(new Employees(2, "Andre da Silva", "754.467.940-36", 22,
+						"andresilva@gmail.com", "V", 2015, 2350.121554545,
+						1.85, 5));
+		funcionarios
+				.add(new Employees(3, "Pedro de Jesus", "797.784.020-00", 22,
+						"pedrojesus@gmail.com", "V", 2018, 2100.45454545, 1.75,
+						4.5));
+
+		// G - Gerente
+		funcionarios.add(new Employees(4, "Marcia de Almeida",
+				"523.668.610-52", 22, "marciaalmeida@gmail.com", "G", 2005,
+				3500.54211212, 2.25, 0));
+
+		// R - Repositor
+		funcionarios.add(new Employees(5, "Antonio Escouto",
+				"122.453.450-61", 22, "antonioescouto@gmail.com", "R", 2021,
+				1700.8787545454, 0, 0));
+
+		// C - Conferencista
+		funcionarios.add(new Employees(6, "Marcia Bragança",
+				"841.239.870-01", 22, "marciabraganca@gmail.com", "C", 2021,
+				1850.545456465, 0, 0));
+
+		return funcionarios;
+	}
+}

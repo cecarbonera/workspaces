@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AEF58307-D914-560F-3F36-9746F8F1EEDE" name="shop">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>0AFCD307-FEFD-ECE3-5AE9-EF26EF4B561D</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="11EFBC10-AD7B-E19E-CEF8-16E035D59446">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>A9CFA4E8-9E89-679E-7F1D-F1B33C923B24</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="E9343EB2-83BC-93B9-AD82-D246AB2DF58A">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>D0EC8A9B-E6FE-58DB-D71E-BE520CE7DBEB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E325850-1D95-561E-A1FE-94C3C4CDFD95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="0B4C5C69-F655-601C-2631-7520225C59B4">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>2B5FD51C-0B90-2130-C60C-E6766B830AD9</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B338C243-F1F1-8415-6EAD-2ED3697F2EFF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="A3C7292A-46FE-64A8-73CA-ACA11C89DBA4">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>042157F3-C41F-E647-3355-4B81AD3A195B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="4C0762FD-F031-9842-66A9-9AD236C147A1">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>10591450-2337-37A1-312B-E94E4A1AB79F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>26417D63-E063-2804-6064-04F6606425F2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="1E555F4D-C909-9F7B-4F63-BEDF75F53B9B">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>26EEF876-1070-B129-7026-44FBC82BCBD4</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D9C8E7F8-1EB4-FD7B-E02F-2E8AB6E9E648</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C781217B-1BD6-D12E-4BC8-F63CAA6F496F" name="shop_PK">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>3113719E-1CF2-B5FC-E7BE-DAC5021A1C41</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11EFBC10-AD7B-E19E-CEF8-16E035D59446"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Wed Sep 24 19:21:36 BRT 2025
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=ProMergeCore.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

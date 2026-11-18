@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7450B9B8-FB84-168A-AF60-A6633F9FCD0B" name="product">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>8DA51A7F-51E0-062E-224C-BBAB36D4A89F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="2EFA4A14-3C30-29BD-938C-EC8FA0313F40">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>6BBDD33C-6720-6E91-D233-F9A341B20CCE</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="EACA9278-CFC7-9750-3FBE-932383B43B09">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>637953E4-08D5-9E46-9579-57561D6F7293</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E325850-1D95-561E-A1FE-94C3C4CDFD95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="price_per_unit" id="78DD3455-CB60-D741-DC7C-143E6970CC0E">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>1FEE3F2C-7760-659F-0AC2-7F8E6FBADB5E</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>21EBD31A-5240-4C2A-848A-22BF6576E759</domain>
+<defaultValue>0.00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock" id="E8A54561-1A86-654D-E834-0ED11687F9CA">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>B76B9443-0101-E6A9-BC42-D276B5AB9C99</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>21EBD31A-5240-4C2A-848A-22BF6576E759</domain>
+<defaultValue>0.00</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type" id="364B7771-1B94-660B-1BF6-5198A9E084F6">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>FED124A8-2947-DD19-A0B9-E07612CEB289</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4E721C6B-E286-CA63-0903-7FDA8B2B147C</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB2F0A21-262C-5E0A-B8C1-34041762F31B" name="product_PK">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>94FBE7A8-BED5-615C-D640-4B1C324D46F2</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EFA4A14-3C30-29BD-938C-EC8FA0313F40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

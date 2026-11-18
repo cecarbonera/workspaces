@@ -1,0 +1,61 @@
+2026-03-09 18:48:41,112 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 18:48:44,745 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 18:48:45,164 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 19:12:55,107 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 19:12:58,042 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 19:12:58,395 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 19:12:58,400 [main] ERROR com.dvl.promerge.server.ProMergeServer - Erro no servidor, é necessário reestartá-lo.
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.dvl.promerge.server.ProMergeServer.main(ProMergeServer.java:110)
+2026-03-09 19:14:06,107 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 19:14:07,966 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 19:14:08,202 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 19:14:08,204 [main] ERROR com.dvl.promerge.server.ProMergeServer - Erro no servidor, é necessário reestartá-lo.
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.dvl.promerge.server.ProMergeServer.main(ProMergeServer.java:110)
+2026-03-09 19:14:56,106 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 19:14:57,866 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 19:14:58,153 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 19:14:58,155 [main] ERROR com.dvl.promerge.server.ProMergeServer - Erro no servidor, é necessário reestartá-lo.
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.dvl.promerge.server.ProMergeServer.main(ProMergeServer.java:110)
+2026-03-09 19:15:58,108 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 19:15:59,854 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 19:16:00,146 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 19:16:00,148 [main] ERROR com.dvl.promerge.server.ProMergeServer - Erro no servidor, é necessário reestartá-lo.
+java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.bind(Unknown Source)
+	at java.net.PlainSocketImpl.bind(Unknown Source)
+	at java.net.ServerSocket.bind(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at java.net.ServerSocket.<init>(Unknown Source)
+	at com.dvl.promerge.server.ProMergeServer.main(ProMergeServer.java:110)
+2026-03-09 19:21:04,104 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 19:21:06,228 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 19:21:06,531 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.
+2026-03-09 22:23:56,105 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização da complexidade dos métodos...
+2026-03-09 22:23:57,845 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualização dos históricos dos métodos...
+2026-03-09 22:23:58,066 [main] INFO  com.dvl.promerge.server.ProMergeServer - Atualizações concluídas.

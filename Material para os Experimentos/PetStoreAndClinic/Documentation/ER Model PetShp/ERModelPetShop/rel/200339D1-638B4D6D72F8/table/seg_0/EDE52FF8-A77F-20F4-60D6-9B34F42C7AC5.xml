@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDE52FF8-A77F-20F4-60D6-9B34F42C7AC5" name="feedback">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>952407DF-1C3A-78D8-5F34-59449D0BD3EB</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="395A4350-7268-8A96-8389-E25B093AFC85">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>6A05BD3E-6D4F-9211-BE76-353971B54585</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="client_id" id="E2B79921-CCDB-5B6D-C263-794CD3CCF5EA">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>0D451AE6-4224-9439-6CEB-DB40D8520CBA</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F054910-0E32-02D2-FA5D-5D8BC45BF8A4" referredColumn="BBD08D4C-8E69-AD4D-180B-BD9BD0DAF56E"/>
+</associations>
+</Column>
+<Column name="shop_id" id="F2F1AA19-2797-B800-A8C7-887BDFE92719">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>F14BE26C-FB54-FF42-6026-2829CCA1497D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="472CD420-05EE-904E-3923-E8B4A6F92BA6" referredColumn="11EFBC10-AD7B-E19E-CEF8-16E035D59446"/>
+</associations>
+</Column>
+<Column name="doctor_id" id="4ADFD1AB-51CE-F719-C39B-3822773E909B">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>E37A0EDA-4BB8-D2FC-CD99-7F6C5FA8116B</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF83F43D-7193-FE39-F0B1-D11F9DEB4ABD" referredColumn="59E6A58B-9411-C4A4-8B02-8EA3B609C1F9"/>
+</associations>
+</Column>
+<Column name="title" id="4A38F706-7FA8-CC11-A5F2-C9CD38FB3815">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>86070F18-7054-B43F-5E24-259901ABFF06</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>9E325850-1D95-561E-A1FE-94C3C4CDFD95</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="message" id="46038EE5-E5AB-6CF2-8B73-073D36338304">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>5ABA3193-286E-343B-B71E-732F4892AA9F</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="984724D7-8471-2A30-FAEF-D25E236D4995" name="feedback_PK">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>362AF33D-48EE-5ADF-7D65-A57DBED2E02B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="395A4350-7268-8A96-8389-E25B093AFC85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="03E58839-B5CD-32FB-49B0-FFE62DCC4DA0" name="idx_feedback_client">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>515D9A2E-B899-39A0-F79C-4A791B4C5131</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B79921-CCDB-5B6D-C263-794CD3CCF5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E2693CAD-0F96-1267-E4CB-8D94D3129E9F" name="idx_feedback_doctor">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>3422AC19-8CF8-0FBC-8CBC-ED696A2257DD</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADFD1AB-51CE-F719-C39B-3822773E909B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F4C9C55-254E-9E2C-A6BC-84D44CBC361A" name="idx_feedback_shop">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>2157807C-1C1B-1914-B397-FE991BE9C1F6</importedID>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F1AA19-2797-B800-A8C7-887BDFE92719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="049552A3-880A-D722-4205-4D435A2C8680" name="fk_feedback_client">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2B79921-CCDB-5B6D-C263-794CD3CCF5EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5F433FED-85FF-BCC5-9BC0-02AB7E23137E" name="fk_feedback_doctor">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ADFD1AB-51CE-F719-C39B-3822773E909B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41EAC6D2-CD44-F6DF-C18E-E0A7536F7E83" name="fk_feedback_shop">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F1AA19-2797-B800-A8C7-887BDFE92719"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

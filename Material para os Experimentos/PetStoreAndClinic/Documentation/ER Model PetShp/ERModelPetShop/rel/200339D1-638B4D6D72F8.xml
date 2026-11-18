@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="200339D1-E9D9-A792-4543-638B4D6D72F8" mainViewID="819D973A-122F-9D78-FA4B-88B61EB6F7BB">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:13:34 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>script_ddl_petstore.sql.sql</fileName>
+<pathName>C:\Users\carlo\OneDrive\Área de Trabalho</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

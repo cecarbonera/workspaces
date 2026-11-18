@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F054910-0E32-02D2-FA5D-5D8BC45BF8A4" containerWithKeyObject="EDE52FF8-A77F-20F4-60D6-9B34F42C7AC5" localFKIndex="049552A3-880A-D722-4205-4D435A2C8680" name="fk_feedback_client">
+<sourceDDLFile>script_ddl_petstore.sql.sql</sourceDDLFile>
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:20:08 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<importedID>D11E0A0B-207F-70E7-CC78-E15B1FB4148F</importedID>
+<referredTableLongName>client</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5F575110-EDD5-56E7-BA4C-CC975A42BB65</referredTableID>
+<keyObject>62396E0A-B62A-8F9D-26AF-8E8709ADCEAC</keyObject>
+<referredKeyID>62396E0A-B62A-8F9D-26AF-8E8709ADCEAC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

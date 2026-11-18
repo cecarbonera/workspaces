@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ERModelPetShop" id="11D018DB-DDF1-C500-40B2-1BC2207D9AC5" version="3.5">
+<createdBy>carlo</createdBy>
+<createdTime>2026-08-06 18:13:30 UTC</createdTime>
+<ownerDesignName>ERModelPetShop</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>11D018DB-DDF1-C500-40B2-1BC2207D9AC5</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="B5859456-7216-EC7A-7A15-BFD74A1057C3">
+<designStoragePath>C:\script_ddl_petstore.sql</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: promerge-qdrant
+    ports:
+      - "6333:6333"
+
+  neo4j:
+    image: neo4j:latest
+    container_name: promerge-neo4j
+    environment:
+      - NEO4J_AUTH=neo4j/promerge
+      - NEO4J_PLUGINS=["apoc"]
+      - NEO4J_dbms_security_procedures_unrestricted=apoc.*
+    ports:
+      - "7474:7474"
+      - "7687:7687"

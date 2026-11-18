@@ -1,0 +1,15 @@
+Api Key
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIiwic3ViamVjdCI6ImFwaS1rZXk6MzAyNjE5NGEtYjdmNC00MGI0LWExMmQtZGNlZWQ3OWVjZjZjIn0.nc5RiF9As1x9WkBjxVhtVV0sxi75iij2SABAjJo9jkY
+
+Cluster Endpoint
+https://64d72ea3-df92-4899-b5f1-a14e9b14206c.sa-east-1-0.aws.cloud.qdrant.io
+
+
+from qdrant_client import QdrantClient
+
+qdrant_client = QdrantClient(
+    url="https://64d72ea3-df92-4899-b5f1-a14e9b14206c.sa-east-1-0.aws.cloud.qdrant.io:6333", 
+    api_key="<your-api-key>",
+)
+
+print(qdrant_client.get_collections())
